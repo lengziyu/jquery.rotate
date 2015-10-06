@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+ul li{
+  list-style: none;
+  float: left;
+}
+.rotate{
+  width: 560px;
+  height: 76px;
+  margin: 300px auto;
+  background-color: #333;
+  overflow: hidden;
+  ul{
+    li{
+      float: left;
+      margin: 20px;
+    }
+  }
+}
