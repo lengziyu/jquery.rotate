@@ -3,26 +3,29 @@
 <head>
   <meta charset="UTF-8">
   <title>jquery.rotate</title>
-  <link rel="stylesheet" href="styles/sass/jquery.rotate.min.scss">
+  <link rel="stylesheet" href="styles/css/style.css">
 </head>
 <body>
-  <div class="rotate">
-    <ul>
-      <li><a href=""><img src="img/1.jpg" alt=""></a></li>
-      <li><a href=""><img src="img/2.jpg" alt=""></a></li>
-      <li><a href=""><img src="img/3.jpg" alt=""></a></li>
-      <li><a href=""><img src="img/4.jpg" alt=""></a></li>
-      <li><a href=""><img src="img/5.jpg" alt=""></a></li>
-      <li><a href=""><img src="img/6.jpg" alt=""></a></li>
-      <li><a href=""><img src="img/7.jpg" alt=""></a></li>
-      <li><a href=""><img src="img/8.jpg" alt=""></a></li>
-    </ul>
+  <div id="slideImg">
+    <div class="slideMain">
+      <ul class="slide1">
+        <li><img src="img/1.jpg"/></li> 
+        <li><img src="img/2.jpg"/></li> 
+        <li><img src="img/3.jpg"/></li> 
+        <li><img src="img/4.jpg"/></li> 
+        <li><img src="img/5.jpg"/></li>
+        <li><img src="img/6.jpg"/></li> 
+        <li><img src="img/7.jpg"/></li> 
+        <li><img src="img/8.jpg"/></li> 
+      </ul>
+    </div>
+    </ul> 
   </div>
   <script src="http://cdn.bootcss.com/jquery/1.11.1/jquery.min.js"></script>
-  <script src="jquery.rotate.min.js" charset="utf-8"></script>
+  <script src="jquery.rotate.min.js"></script>
   <script type="text/javascript">
     $(document).ready(function(){
-      $(".rotate").rotate();
+      $("#slideImg").rotate();
     });
   </script>
 </body>

@@ -1,0 +1,7 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+#slideImg{margin:100px auto;}
+ul{list-style:none;}
+li{float:left;}
