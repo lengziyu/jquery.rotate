@@ -1,4 +1,4 @@
-# jquery.rotate
+jquery.rotate
 ===========================
 ######jquery图片旋转插件
 
