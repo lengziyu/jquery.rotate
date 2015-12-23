@@ -12,9 +12,10 @@
   this.each(function(){
     var thisR = $(this),
         thisC = thisR.children();
+    thisR.append('<a href="javascript:;" class="rotate-prev">上一个</a>');
     thisC.append('<ul class="slide2">'+ $(options.slide1).html() +'</ul>');
     thisR.css({'overflow':'hidden','width':options.width});
-    thisC.css('width','4000px').children().css('float','left');
+    thisC.css('width','12000px').children().css('float','left');
     function Marquee(){
       if(thisR.scrollLeft() >= $(options.slide1).width()){
         thisR.scrollLeft(0);
